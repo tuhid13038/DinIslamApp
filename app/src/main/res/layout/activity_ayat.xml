@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Ayat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:text="জরুরী আয়াত"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboard_item_1_background">
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/end_view_background"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </View>
+
+                        <ImageView
+                            android:id="@+id/layoutLine"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/icon_background"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/line"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/textItem1Title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="وَ اعۡتَصِمُوۡا بِحَبۡلِ اللّٰہِ جَمِیۡعًا وَّ لَا تَفَرَّقُوۡا
+
+                                  আর তোমরা সকলে আল্লাহর রজ্জুকে সুদৃঢ় হস্তে ধারণ কর; পরস্পর বিচ্ছিন্ন হয়ো না।
+আল-ইমরান (ইমরানের পরিবার) আয়াত ১০৩"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/layoutLine"
+                            app:layout_constraintTop_toTopOf="@+id/layoutLine">
+
+                        </TextView>
+                        "
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboard_item_2_background">
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/end_view_background"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </View>
+
+                        <ImageView
+                            android:id="@+id/Line2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/icon_background"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/line2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/textItem2Title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="اِنَّ اللّٰہَ اشۡتَرٰی مِنَ الۡمُؤۡمِنِیۡنَ اَنۡفُسَہُمۡ وَ اَمۡوَالَہُمۡ بِاَنَّ لَہُمُ الۡجَنَّۃَ ؕ
+আল্লাহ ক্রয় করে নিয়েছেন মুসলমানদের থেকে তাদের জান ও মাল এই মূল্যে যে, তাদের জন্য রয়েছে জান্নাত।
+
+আত-তাওবাহ (অনুশোচনা) আয়াত ১১১"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/Line2"
+                            app:layout_constraintTop_toTopOf="@+id/Line2">
+
+                        </TextView>
+                        "
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboard_item_3_background">
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/end_view_background"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </View>
+
+                        <ImageView
+                            android:id="@+id/Line3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/icon_background"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/line3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/textItem3Title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="
+اِنَّ  الَّذِیۡنَ یُبَایِعُوۡنَکَ  اِنَّمَا یُبَایِعُوۡنَ اللّٰہَ ؕ
+                                     যারা আপনার কাছে আনুগত্যের শপথ করে, তারা তো আল্লাহর কাছে আনুগত্যের শপথ করে।
+আল-ফাতহ (বিজয়) আয়াত ১০"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/Line3"
+                            app:layout_constraintTop_toTopOf="@+id/Line3">
+
+                        </TextView>
+                        "
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboard_item_4_background">
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/end_view_background"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </View>
+
+                        <ImageView
+                            android:id="@+id/Line4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/icon_background"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/line4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/textItem4Title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text=" اِنَّ اللّٰہَ یُحِبُّ الَّذِیۡنَ یُقَاتِلُوۡنَ فِیۡ سَبِیۡلِہٖ  صَفًّا کَاَنَّہُمۡ  بُنۡیَانٌ  مَّرۡصُوۡصٌ  ﴿۴﴾
+
+আল্লাহ তাদেরকে ভালবাসেন, যারা তাঁর পথে সারিবদ্ধভাবে লড়াই করে, যেন তারা সীসাগালানো প্রাচীর।
+
+আস-সাফ (সারবন্দী সৈন্যদল) আয়াত ৪"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/Line4"
+                            app:layout_constraintTop_toTopOf="@+id/Line4">
+
+                        </TextView>
+                        "
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="6dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dashboard_item_1_background">
+                        <View
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/end_view_background"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </View>
+
+                        <ImageView
+                            android:id="@+id/Line5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/icon_background"
+                            android:contentDescription="@string/app_name"
+                            android:padding="10dp"
+                            android:src="@drawable/line5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/textItem5Title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="قُلۡ ہُوَ  اللّٰہُ  اَحَدٌ  ۚ﴿۱ اَللّٰہُ  الصَّمَدُ ۚ﴿۲﴾ لَمۡ  یَلِدۡ ۬ۙ  وَ  لَمۡ  یُوۡلَدۡ ۙ﴿۳﴾
+বলুন, তিনি আল্লাহ, এক, আল্লাহ অমুখাপেক্ষী, তিনি কাউকে জন্ম দেননি এবং কেউ তাকে জন্ম দেয়নি
+
+আল-ইখলাস (একত্ব) আয়াত ১-৩"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/Line5"
+                            app:layout_constraintTop_toTopOf="@+id/Line5">
+
+                        </TextView>
+                        "
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

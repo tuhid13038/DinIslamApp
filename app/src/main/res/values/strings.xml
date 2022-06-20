@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DinIslamApp</string>
+    <string name="home">Home</string>
+    <string name="page">Page</string>
+    <string name="search_elements">search elements</string>
+    <string name="dummy_text"></string>
+</resources>

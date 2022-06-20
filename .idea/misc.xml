@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable-v24/dashboard_item_2_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable-v24/dashboard_item_3_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable-v24/dashboard_item_5_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/dashboard_item_1_background.xml" value="0.15" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/end_view_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/header_background.xml" value="0.134" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/icon_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/search_icon_background.xml" value="0.134" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/drawable/white_rectangle_background.xml" value="0.134" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_ayat.xml" value="0.22" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_dowa.xml" value="0.14857142857142858" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_islamic_book.xml" value="0.12322274881516587" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_jiboni.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_prayer_time.xml" value="0.21" />
+        <entry key="..\:/Users/Sifat/DinIslamApp/app/src/main/res/layout/activity_quran.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
